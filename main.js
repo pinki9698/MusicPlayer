@@ -105,8 +105,8 @@ else{
 const loadSong = (songs)=>{
 title.textContent = songs.title;
 artist.textContent = songs.artist;
-music.src = "/music/" + songs.name + ".mp3";
-img.src="/images/" + songs.imgs +".jpg"
+music.src = "./music/" + songs.name + ".mp3";
+img.src="./images/" + songs.imgs +".jpg"
 }
 
 songIndex=0;
