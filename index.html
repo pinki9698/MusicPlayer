@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎶Music Player By Pinki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div>
+    <h1 class="heading">MUSIC PLAYER</h1>
+</div>
+    <div class="main-div">
+        
+        <div class="music-container">
+            <h2 id="title">CHITTI</h2>
+            <h3 id="artist">JUBIN NAUTIYAL</h3>
+            <div class="img-container">
+                <img src="images/img-1.jpg" alt="img-1">
+            </div>
+            <audio src="music/music-1.mp3" ></audio>
+
+
+            <!-- progress bar -->
+            <div class="progressbar-container" id="progress-container">
+                 <div class="progress-duration-meter">
+                     <div id="current-time">0.00</div>
+                     <div id="duration">3:49</div>
+
+                 </div>
+                 <div class="progress-div" id="progress-div">
+                     <div class="progress" id="progress"></div>
+                 </div>
+            </div>
+
+
+
+
+            <!-- Controls -->
+
+            <div class="music-controls" >
+                <i class="fas fa-fast-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play-circle main-button" id="play" title="Play"></i>
+                <i class="fas fa-fast-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer class="copyright">
+        <div>
+            copyright © 2021 . All rights reserved by <a href="#">Pinki Kumari</a>💗.
+        </div>
+
+    </footer>
+
+<script src="main.js"type="text/javascript"></script>
+
+
+</body>
+
+</html>
